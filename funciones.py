@@ -10,6 +10,7 @@ def menu():
         print("2. Imprimir datos")
         print("3. Denerar PDF")
         print("4. Generar QR")
+        print("5. Listar productos")
         print("0, Salir")
         opcion = int(input("Elije una opcion: "))
         if(opcion==1):
@@ -17,10 +18,9 @@ def menu():
         elif (opcion==2):
             imprimirDatos()
         elif (opcion==3):
-            GenerarPDF()
+            GenerarPDF(listaNombres,listaEdades)
         elif (opcion==5):
             listarProductos()
-
 
 
         
