@@ -1,9 +1,13 @@
 from reportlab.pdfgen import canvas
 from Funcion_QR import *
 from reportlab.lib.pagesizes import A4
+import datetime
+import locale
+locale.setlocale(locale.LC_ALL,'')
+fecha_actual = datetime.datetime.now()
 
 ruta = "C:/Users/FRANKILIJOSHY/Desktop/Modularidad en python/prueba funciones/"
-nombreArchivo = ruta + "Ejemplo de funciones.pdf"
+nombreArchivo = ruta + "Ejemplo de funciones"+fecha_actual.strftime('%d_%m_%Y_%H_%M_%S')+".pdf"
 nombreQR = ruta + "miQR.png"
 
 def GenerarPDF(listaNombres,listaEdades):
