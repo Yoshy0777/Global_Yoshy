@@ -1,12 +1,98 @@
-def listarProductos():
-    print("Lista de productos: ")
-    print("1. Cocacola")
-    print("2. Cheetos")
-    print("3. Maruchan")
-    print("4. Palomitas")
-    print("5. Gomitas")
-    print("6. Fruta")
-    print("7. Verdura")
-    print("8. Helado")
-    print("9. Papel higiénico")
-    print("10. Yogurt griego")
+Marca = [
+    "Samsung",
+    "LG",
+    "Vento",
+    "Hisense",
+    "HP",
+    "Nike",
+    "Puma",
+    "Nike",
+    "Sony",
+    "Nintendo",
+    "Microsoft",
+    "Whrilpool",
+    "Panasonic",
+    "Adidas",
+    "Adidas",
+    "Lego",
+    "Blender",
+    "Rca",
+    "Record",
+    "Hasbro",
+    "Hot-Wheels",
+    "Fisher Price",
+    "Apple",
+    "Apple",
+    "Motorola",
+    "Xiaomi",
+    "Samsung",
+    "Zuum",
+    "Spring Air",
+    "MonteVideo"
+]
+
+NombreProducto = [
+    "Samsung Galaxy A34 128 Gb",
+    "Pantalla LED 32 in. FULL HD",
+    "Motocicleta Crossmax Pro cc 2024",
+    "Pantalla LED 55 in. UHD 4K",
+    "Laptop 14 in. Intel Core i3 8 gb RAM",
+    "Tenis Nike Renew Ride 2",
+    "Tenis Puma Softride Premier Slip On",
+    "Tenis Nike Court Royale 2",
+    "PlayStation 5 1Tb - Color blanco",
+    "Nintendo Switch Oled 64 Gb Oled",
+    "Consola Xbox Series s de 1 TB",
+    "Lavadora Whirlpool Automatica",
+    "Horno de Microondas Panasonic 1.3 pies NN-",
+    "Pants Adidas color Negro",
+    "Tenis Adidas Streetcheck para Hombre",
+    "Lego Minecraft: La mina Abandonada",
+    "Licuadora Personal Blender 2 Go!",
+    "Bocina Bluetooth RCA 50 W",
+    "Ventilador de Mesa Record 12 in.",
+    "Spider-Rex Marvel con Sonido",
+    "Pista Hot Wheels Rainbows Road",
+    "Pila de Aritos Eco Fisher Price",
+    "Iphone 13 128Gb Azul",
+    "Iphone 12 256 Gb Blanco",
+    "Celular Motorola G23",
+    "Celular Xiaomi Redmi Note 12 pro 256 GB"
+    "Samsung Galaxy A54 256 Gb",
+    "Celular Zuum Akus P1 32 Gb",
+    "Colchon King Size Spring Air",
+    "Sofa Montevideo Contemporaneo"
+]
+
+PrecioProducto = [
+    8000.00,
+    3999.00,
+    41999.00,
+    7999.00,
+    8799.00,
+    1099.00,
+    1299.00,
+    1699.00,
+    9699.00,
+    4999.00,
+    8399.00,
+    13999.00,
+    1999.00,
+    649.00,
+    1699.00,
+    519.00,
+    169.99,
+    599.00,
+    799.00,
+    970.00,
+    3799.00,
+    99.99,
+    18999.00,
+    12999.00,
+    4,499.99,
+    4747.00,
+    9999.00,
+    1799.99,
+    7499.99,
+    6999.00
+]
