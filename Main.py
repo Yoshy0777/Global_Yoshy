@@ -7,7 +7,7 @@ Hora_Actual = datetime.datetime.now().time()
 
 if (Hora_Actual>=Horario and Hora_Actual<H_Limite):
     print(f"Hora actual: {Hora_Actual.strftime('%H:%M')}")
-    print("--- Bienvenido a la tienda departamental Coppiel ---")
+    print("--- Bienvenido a la tienda departamental Coppel ---")
     print("------------------------------------------------------")
     menu()
 else:
